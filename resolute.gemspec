@@ -18,6 +18,8 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails"
   s.add_dependency "jquery-rails"
+  s.add_dependency "mongoid"
+  #s.add_dependency "mongoid_touch"
 
   s.add_development_dependency "sqlite3"
 end
